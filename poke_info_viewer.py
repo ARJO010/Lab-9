@@ -1,4 +1,5 @@
 """ 
+Group members: Nadirsha Kareem, Joy Asher
 Description: 
   Graphical user interface that displays select information about a 
   user-specified Pokemon fetched from the PokeAPI 
@@ -105,6 +106,6 @@ bar_special_defense.grid(row=4, column=1, padx=(0,10), pady=5)
 label_speed = ttk.Label(frame_stats, text="Speed:")
 label_speed.grid(row=5, column=0, padx=(10,5), pady=(5,10), sticky=E)
 bar_speed = ttk.Progressbar(frame_stats, length=PRG_BAR_LENGTH, maximum=STAT_MAX_VALUE)
-bar_speed.grid(row=5, column=1, padx=(0, 10), pady=5)
+bar_speed.grid(row=5, column=1, padx=(0, 10), pady=(5,10))
 
 root.mainloop()
